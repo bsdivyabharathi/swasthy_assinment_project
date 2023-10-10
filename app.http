@@ -1,0 +1,17 @@
+### 
+GET http://localhost:3000/blogs 
+
+###
+GET http://localhost:3000/blogs/1
+
+
+###
+
+POST http://localhost:3000/postblog
+Content-Type: application/json
+
+{
+    "friendname": "John Doe",
+    "blog": "Sample Blog Content",
+    "comment": "A sample comment."
+}
